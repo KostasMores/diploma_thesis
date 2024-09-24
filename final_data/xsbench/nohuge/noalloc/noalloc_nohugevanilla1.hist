@@ -1,0 +1,115 @@
+/sys/kernel/debug/tracing/events/pftrace/allochugepmdpage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 6610 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/allocmthppage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 6610 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/fault/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 6610 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/zerohugepmdpage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 6610 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/zeromthppage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 6610 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0

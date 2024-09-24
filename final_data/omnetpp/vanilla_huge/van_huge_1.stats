@@ -1,0 +1,23 @@
+# started on Wed Sep 18 14:24:05 2024
+
+
+ Performance counter stats for process id '8350':
+
+      584886618487      cycles                                                                  (58.34%)
+      523277491137      instructions                     #    0.89  insn per cycle              (58.33%)
+      584665685887      cpu_cycles                                                              (58.33%)
+                90      minor-faults                                                          
+                 5      major-faults                                                          
+                95      page-faults                                                           
+      255145328454      l1d_tlb                                                                 (58.33%)
+         719497316      l2d_tlb                                                                 (58.34%)
+             87237      dtlb_walk                                                               (58.33%)
+      255564281415      armv8_pmuv3/dTLB-loads/                                                 (58.33%)
+         621492443      armv8_pmuv3/dTLB-load-misses/    #    0.24% of all dTLB cache accesses  (58.33%)
+      172859623328      l1i_tlb                                                                 (58.34%)
+            143463      itlb_walk                                                               (50.00%)
+      172836360899      armv8_pmuv3/iTLB-loads/                                                 (50.00%)
+          24724599      armv8_pmuv3/iTLB-load-misses/    #    0.01% of all iTLB cache accesses  (50.01%)
+
+     233.182809542 seconds time elapsed
+

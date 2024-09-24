@@ -1,0 +1,206 @@
+/sys/kernel/debug/tracing/events/pftrace/allochugepmdpage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 4934 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 5428 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/allocmthppage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 4934 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 5428 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/fault/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 4934 [active]
+#
+
+{ cycles: ~ 142-142 } hitcount:          1
+{ cycles: ~ 3785-3785 } hitcount:          1
+{ cycles: ~ 4010-4010 } hitcount:          1
+{ cycles: ~ 4094-4094 } hitcount:          1
+{ cycles: ~ 20324-20324 } hitcount:          1
+{ cycles: ~ 27883-27883 } hitcount:          1
+
+Totals:
+    Hits: 6
+    Entries: 6
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 5428 [active]
+#
+
+{ cycles: ~ 7-7 } hitcount:          4
+{ cycles: ~ 8-8 } hitcount:         14
+{ cycles: ~ 9-9 } hitcount:         12
+{ cycles: ~ 10-10 } hitcount:         12
+{ cycles: ~ 11-11 } hitcount:          5
+{ cycles: ~ 12-12 } hitcount:         10
+{ cycles: ~ 13-13 } hitcount:         14
+{ cycles: ~ 15-15 } hitcount:          4
+{ cycles: ~ 16-16 } hitcount:          3
+{ cycles: ~ 18-18 } hitcount:          4
+{ cycles: ~ 20-20 } hitcount:          1
+{ cycles: ~ 22-22 } hitcount:          1
+{ cycles: ~ 30-30 } hitcount:          1
+{ cycles: ~ 34-34 } hitcount:          3
+{ cycles: ~ 37-37 } hitcount:          2
+{ cycles: ~ 38-38 } hitcount:          4
+{ cycles: ~ 39-39 } hitcount:          2
+{ cycles: ~ 41-41 } hitcount:          3
+{ cycles: ~ 42-42 } hitcount:          1
+{ cycles: ~ 43-43 } hitcount:          1
+{ cycles: ~ 44-44 } hitcount:          1
+{ cycles: ~ 45-45 } hitcount:          1
+{ cycles: ~ 46-46 } hitcount:          1
+{ cycles: ~ 217-217 } hitcount:          1
+{ cycles: ~ 3119-3119 } hitcount:          1
+
+Totals:
+    Hits: 106
+    Entries: 25
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/zerohugepmdpage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 4934 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 5428 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/zeromthppage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 4934 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 5428 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0

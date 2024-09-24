@@ -1,0 +1,23 @@
+# started on Wed Sep 18 13:28:30 2024
+
+
+ Performance counter stats for process id '3705':
+
+      598486167418      cycles                                                                  (58.34%)
+      524071993206      instructions                     #    0.88  insn per cycle              (58.34%)
+      597958713859      cpu_cycles                                                              (58.33%)
+              2977      minor-faults                                                          
+                 5      major-faults                                                          
+              2982      page-faults                                                           
+      273641748268      l1d_tlb                                                                 (58.34%)
+        8202505263      l2d_tlb                                                                 (58.33%)
+         115282769      dtlb_walk                                                               (58.33%)
+      274014439603      armv8_pmuv3/dTLB-loads/                                                 (58.33%)
+        8013516926      armv8_pmuv3/dTLB-load-misses/    #    2.92% of all dTLB cache accesses  (58.33%)
+      174519342584      l1i_tlb                                                                 (58.33%)
+           8219017      itlb_walk                                                               (50.00%)
+      174190222691      armv8_pmuv3/iTLB-loads/                                                 (50.00%)
+          22240163      armv8_pmuv3/iTLB-load-misses/    #    0.01% of all iTLB cache accesses  (50.01%)
+
+     232.191846395 seconds time elapsed
+

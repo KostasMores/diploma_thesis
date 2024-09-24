@@ -1,0 +1,23 @@
+# started on Wed Sep 11 16:10:52 2024
+
+
+ Performance counter stats for process id '4737':
+
+      609427680892      cycles                                                                  (58.33%)
+      276343415777      instructions                     #    0.45  insn per cycle              (58.33%)
+      609855126382      cpu_cycles                                                              (58.33%)
+                 3      minor-faults                                                          
+                 3      major-faults                                                          
+                 6      page-faults                                                           
+      670426130882      l1d_tlb                                                                 (58.33%)
+        2162963211      l2d_tlb                                                                 (58.33%)
+        1862486913      dtlb_walk                                                               (58.33%)
+      671722949715      armv8_pmuv3/dTLB-loads/                                                 (58.34%)
+        2113177196      armv8_pmuv3/dTLB-load-misses/    #    0.31% of all dTLB cache accesses  (58.34%)
+       81157157402      l1i_tlb                                                                 (58.33%)
+           1179291      itlb_walk                                                               (50.00%)
+       81188238553      armv8_pmuv3/iTLB-loads/                                                 (50.01%)
+           1301979      armv8_pmuv3/iTLB-load-misses/    #    0.00% of all iTLB cache accesses  (50.00%)
+
+     235.187190957 seconds time elapsed
+

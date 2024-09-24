@@ -1,0 +1,23 @@
+# started on Wed Sep 11 15:09:41 2024
+
+
+ Performance counter stats for process id '1762':
+
+      337264911387      cycles                                                                  (58.34%)
+       56394802543      instructions                     #    0.17  insn per cycle              (58.34%)
+      337223370072      cpu_cycles                                                              (58.34%)
+                 0      minor-faults                                                          
+                 0      major-faults                                                          
+                 0      page-faults                                                           
+       25751446270      l1d_tlb                                                                 (58.32%)
+        3942158759      l2d_tlb                                                                 (58.33%)
+        2466199985      dtlb_walk                                                               (58.32%)
+       25790035931      armv8_pmuv3/dTLB-loads/                                                 (58.33%)
+        3945179843      armv8_pmuv3/dTLB-load-misses/    #   15.30% of all dTLB cache accesses  (58.33%)
+       10187949826      l1i_tlb                                                                 (58.33%)
+            153234      itlb_walk                                                               (50.01%)
+       10199870053      armv8_pmuv3/iTLB-loads/                                                 (50.01%)
+            155806      armv8_pmuv3/iTLB-load-misses/    #    0.00% of all iTLB cache accesses  (50.01%)
+
+     126.103968959 seconds time elapsed
+

@@ -1,0 +1,23 @@
+# started on Wed Sep 11 23:07:43 2024
+
+
+ Performance counter stats for process id '1885':
+
+      345233606431      cycles                                                                  (58.33%)
+      350420327538      instructions                     #    1.02  insn per cycle              (58.33%)
+      345468459275      cpu_cycles                                                              (58.33%)
+             65655      minor-faults                                                          
+                 0      major-faults                                                          
+             65654      page-faults                                                           
+      215930624019      l1d_tlb                                                                 (58.33%)
+        3558240218      l2d_tlb                                                                 (58.32%)
+        1973421954      dtlb_walk                                                               (58.33%)
+      216340274477      armv8_pmuv3/dTLB-loads/                                                 (58.34%)
+        3504724643      armv8_pmuv3/dTLB-load-misses/    #    1.62% of all dTLB cache accesses  (58.34%)
+      184751464471      l1i_tlb                                                                 (58.33%)
+            389748      itlb_walk                                                               (50.01%)
+      184750469375      armv8_pmuv3/iTLB-loads/                                                 (50.01%)
+            471543      armv8_pmuv3/iTLB-load-misses/    #    0.00% of all iTLB cache accesses  (50.00%)
+
+     134.109597798 seconds time elapsed
+

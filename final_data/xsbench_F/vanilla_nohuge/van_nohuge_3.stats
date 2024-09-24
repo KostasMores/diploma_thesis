@@ -1,0 +1,23 @@
+# started on Tue Sep 10 23:55:06 2024
+
+
+ Performance counter stats for process id '1520':
+
+     4101261952299      cycles                                                                  (58.34%)
+     1135774530669      instructions                     #    0.28  insn per cycle              (58.33%)
+     4099381788801      cpu_cycles                                                              (58.33%)
+          30642943      minor-faults                                                          
+                 0      major-faults                                                          
+          30642942      page-faults                                                           
+      824373574379      l1d_tlb                                                                 (58.33%)
+       26886731857      l2d_tlb                                                                 (58.33%)
+       22014416458      dtlb_walk                                                               (58.33%)
+      825368901729      armv8_pmuv3/dTLB-loads/                                                 (58.33%)
+       26577905653      armv8_pmuv3/dTLB-load-misses/    #    3.22% of all dTLB cache accesses  (58.33%)
+      405986424415      l1i_tlb                                                                 (58.33%)
+           1785175      itlb_walk                                                               (50.00%)
+      405319104376      armv8_pmuv3/iTLB-loads/                                                 (50.00%)
+           1848454      armv8_pmuv3/iTLB-load-misses/    #    0.00% of all iTLB cache accesses  (50.00%)
+
+    1548.223550443 seconds time elapsed
+

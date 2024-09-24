@@ -1,0 +1,23 @@
+# started on Mon Jul 29 23:58:02 2024
+
+
+ Performance counter stats for process id '9593':
+
+     2334605968336      cycles                                                                  (58.36%)
+      377505995545      instructions                     #    0.16  insn per cycle              (58.32%)
+     2334286817767      cpu_cycles                                                              (58.33%)
+                 0      minor-faults                                                          
+                 0      major-faults                                                          
+                 0      page-faults                                                           
+      365345954514      l1d_tlb                                                                 (58.32%)
+       14694634573      l2d_tlb                                                                 (58.35%)
+       12513796250      dtlb_walk                                                               (58.32%)
+      366928522947      armv8_pmuv3/dTLB-loads/                                                 (58.33%)
+       14587763699      armv8_pmuv3/dTLB-load-misses/    #    3.98% of all dTLB cache accesses  (58.32%)
+      156382900858      l1i_tlb                                                                 (58.35%)
+            572377      itlb_walk                                                               (49.99%)
+      155974677333      armv8_pmuv3/iTLB-loads/                                                 (50.00%)
+            575384      armv8_pmuv3/iTLB-load-misses/    #    0.00% of all iTLB cache accesses  (50.01%)
+
+     841.676079006 seconds time elapsed
+

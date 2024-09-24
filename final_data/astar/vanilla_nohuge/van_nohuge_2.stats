@@ -1,0 +1,23 @@
+# started on Tue Sep 10 15:41:10 2024
+
+
+ Performance counter stats for process id '3023':
+
+      352990607851      cycles                                                                  (58.33%)
+      345887224035      instructions                     #    0.98  insn per cycle              (58.33%)
+      352907021011      cpu_cycles                                                              (58.34%)
+             56253      minor-faults                                                          
+                 3      major-faults                                                          
+             56256      page-faults                                                           
+      220688831113      l1d_tlb                                                                 (58.33%)
+        5102397224      l2d_tlb                                                                 (58.33%)
+        2777214153      dtlb_walk                                                               (58.34%)
+      221308945721      armv8_pmuv3/dTLB-loads/                                                 (58.34%)
+        5047085779      armv8_pmuv3/dTLB-load-misses/    #    2.28% of all dTLB cache accesses  (58.33%)
+      186932258061      l1i_tlb                                                                 (58.33%)
+            462525      itlb_walk                                                               (50.01%)
+      186617778596      armv8_pmuv3/iTLB-loads/                                                 (50.00%)
+            484552      armv8_pmuv3/iTLB-load-misses/    #    0.00% of all iTLB cache accesses  (49.99%)
+
+     136.107208366 seconds time elapsed
+

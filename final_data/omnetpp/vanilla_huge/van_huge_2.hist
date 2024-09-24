@@ -1,0 +1,295 @@
+/sys/kernel/debug/tracing/events/pftrace/allochugepmdpage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 9398 [active]
+#
+
+{ cycles: ~ 116-116 } hitcount:          1
+{ cycles: ~ 119-119 } hitcount:          1
+{ cycles: ~ 120-120 } hitcount:          1
+{ cycles: ~ 121-121 } hitcount:          1
+{ cycles: ~ 122-122 } hitcount:          3
+{ cycles: ~ 124-124 } hitcount:          1
+{ cycles: ~ 125-125 } hitcount:          1
+{ cycles: ~ 126-126 } hitcount:          6
+{ cycles: ~ 127-127 } hitcount:          2
+{ cycles: ~ 128-128 } hitcount:          1
+{ cycles: ~ 129-129 } hitcount:          2
+{ cycles: ~ 130-130 } hitcount:          1
+{ cycles: ~ 131-131 } hitcount:          4
+{ cycles: ~ 132-132 } hitcount:          2
+{ cycles: ~ 133-133 } hitcount:          4
+{ cycles: ~ 134-134 } hitcount:          1
+{ cycles: ~ 135-135 } hitcount:          1
+{ cycles: ~ 136-136 } hitcount:          2
+{ cycles: ~ 137-137 } hitcount:          2
+{ cycles: ~ 138-138 } hitcount:          4
+{ cycles: ~ 139-139 } hitcount:          5
+{ cycles: ~ 140-140 } hitcount:          1
+{ cycles: ~ 141-141 } hitcount:          1
+{ cycles: ~ 143-143 } hitcount:          4
+{ cycles: ~ 144-144 } hitcount:          2
+{ cycles: ~ 145-145 } hitcount:          3
+{ cycles: ~ 147-147 } hitcount:          3
+{ cycles: ~ 149-149 } hitcount:          3
+{ cycles: ~ 151-151 } hitcount:          2
+{ cycles: ~ 153-153 } hitcount:          1
+{ cycles: ~ 155-155 } hitcount:          2
+{ cycles: ~ 156-156 } hitcount:          2
+{ cycles: ~ 157-157 } hitcount:          1
+{ cycles: ~ 158-158 } hitcount:          2
+{ cycles: ~ 170-170 } hitcount:          1
+{ cycles: ~ 172-172 } hitcount:          1
+
+Totals:
+    Hits: 75
+    Entries: 36
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/allocmthppage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 9398 [active]
+#
+
+{ cycles: ~ 76-76 } hitcount:          1
+
+Totals:
+    Hits: 1
+    Entries: 1
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/fault/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 9398 [active]
+#
+
+{ cycles: ~ 9-9 } hitcount:          1
+{ cycles: ~ 35-35 } hitcount:          1
+{ cycles: ~ 58-58 } hitcount:          1
+{ cycles: ~ 67-67 } hitcount:          1
+{ cycles: ~ 83-83 } hitcount:          1
+{ cycles: ~ 98-98 } hitcount:          1
+{ cycles: ~ 104-104 } hitcount:          1
+{ cycles: ~ 115-115 } hitcount:          1
+{ cycles: ~ 118-118 } hitcount:          1
+{ cycles: ~ 129-129 } hitcount:          1
+{ cycles: ~ 131-131 } hitcount:          1
+{ cycles: ~ 141-141 } hitcount:          1
+{ cycles: ~ 162-162 } hitcount:          1
+{ cycles: ~ 166-166 } hitcount:          1
+{ cycles: ~ 169-169 } hitcount:          1
+{ cycles: ~ 232-232 } hitcount:          1
+{ cycles: ~ 251-251 } hitcount:          1
+{ cycles: ~ 280-280 } hitcount:          1
+{ cycles: ~ 283-283 } hitcount:          1
+{ cycles: ~ 314-314 } hitcount:          1
+{ cycles: ~ 327-327 } hitcount:          1
+{ cycles: ~ 1362-1362 } hitcount:          1
+{ cycles: ~ 1405-1405 } hitcount:          1
+{ cycles: ~ 1409-1409 } hitcount:          1
+{ cycles: ~ 1410-1410 } hitcount:          1
+{ cycles: ~ 1411-1411 } hitcount:          1
+{ cycles: ~ 1413-1413 } hitcount:          2
+{ cycles: ~ 1416-1416 } hitcount:          1
+{ cycles: ~ 1419-1419 } hitcount:          1
+{ cycles: ~ 1423-1423 } hitcount:          1
+{ cycles: ~ 1425-1425 } hitcount:          1
+{ cycles: ~ 1426-1426 } hitcount:          1
+{ cycles: ~ 1427-1427 } hitcount:          1
+{ cycles: ~ 1429-1429 } hitcount:          1
+{ cycles: ~ 1430-1430 } hitcount:          2
+{ cycles: ~ 1433-1433 } hitcount:          1
+{ cycles: ~ 1437-1437 } hitcount:          1
+{ cycles: ~ 1439-1439 } hitcount:          2
+{ cycles: ~ 1440-1440 } hitcount:          1
+{ cycles: ~ 1441-1441 } hitcount:          1
+{ cycles: ~ 1443-1443 } hitcount:          1
+{ cycles: ~ 1444-1444 } hitcount:          1
+{ cycles: ~ 1447-1447 } hitcount:          4
+{ cycles: ~ 1449-1449 } hitcount:          2
+{ cycles: ~ 1450-1450 } hitcount:          1
+{ cycles: ~ 1451-1451 } hitcount:          1
+{ cycles: ~ 1452-1452 } hitcount:          1
+{ cycles: ~ 1458-1458 } hitcount:          1
+{ cycles: ~ 1459-1459 } hitcount:          1
+{ cycles: ~ 1463-1463 } hitcount:          1
+{ cycles: ~ 1464-1464 } hitcount:          1
+{ cycles: ~ 1473-1473 } hitcount:          2
+{ cycles: ~ 1496-1496 } hitcount:          1
+{ cycles: ~ 1499-1499 } hitcount:          1
+{ cycles: ~ 1508-1508 } hitcount:          1
+{ cycles: ~ 1525-1525 } hitcount:          2
+{ cycles: ~ 1531-1531 } hitcount:          2
+{ cycles: ~ 1533-1533 } hitcount:          2
+{ cycles: ~ 1534-1534 } hitcount:          1
+{ cycles: ~ 1537-1537 } hitcount:          1
+{ cycles: ~ 1539-1539 } hitcount:          1
+{ cycles: ~ 1541-1541 } hitcount:          1
+{ cycles: ~ 1542-1542 } hitcount:          1
+{ cycles: ~ 1545-1545 } hitcount:          1
+{ cycles: ~ 1546-1546 } hitcount:          2
+{ cycles: ~ 1547-1547 } hitcount:          1
+{ cycles: ~ 1549-1549 } hitcount:          1
+{ cycles: ~ 1551-1551 } hitcount:          2
+{ cycles: ~ 1557-1557 } hitcount:          1
+{ cycles: ~ 1559-1559 } hitcount:          1
+{ cycles: ~ 1561-1561 } hitcount:          1
+{ cycles: ~ 1562-1562 } hitcount:          1
+{ cycles: ~ 1563-1563 } hitcount:          1
+{ cycles: ~ 1569-1569 } hitcount:          1
+{ cycles: ~ 1574-1574 } hitcount:          1
+{ cycles: ~ 1576-1576 } hitcount:          1
+{ cycles: ~ 1584-1584 } hitcount:          1
+{ cycles: ~ 1585-1585 } hitcount:          1
+{ cycles: ~ 1587-1587 } hitcount:          1
+{ cycles: ~ 1593-1593 } hitcount:          1
+{ cycles: ~ 1597-1597 } hitcount:          1
+{ cycles: ~ 1609-1609 } hitcount:          1
+{ cycles: ~ 1653-1653 } hitcount:          1
+{ cycles: ~ 2055-2055 } hitcount:          1
+{ cycles: ~ 3105-3105 } hitcount:          1
+{ cycles: ~ 3797-3797 } hitcount:          1
+{ cycles: ~ 3858-3858 } hitcount:          1
+{ cycles: ~ 4091-4091 } hitcount:          1
+{ cycles: ~ 4138-4138 } hitcount:          1
+{ cycles: ~ 4200-4200 } hitcount:          1
+{ cycles: ~ 4500-4500 } hitcount:          1
+{ cycles: ~ 4513-4513 } hitcount:          1
+{ cycles: ~ 17839-17839 } hitcount:          1
+{ cycles: ~ 20702-20702 } hitcount:          1
+{ cycles: ~ 26378-26378 } hitcount:          1
+{ cycles: ~ 30192-30192 } hitcount:          1
+
+Totals:
+    Hits: 109
+    Entries: 96
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/zerohugepmdpage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 9398 [active]
+#
+
+{ cycles: ~ 1025-1025 } hitcount:          1
+{ cycles: ~ 1026-1026 } hitcount:          1
+{ cycles: ~ 1029-1029 } hitcount:          1
+{ cycles: ~ 1032-1032 } hitcount:          1
+{ cycles: ~ 1037-1037 } hitcount:          5
+{ cycles: ~ 1038-1038 } hitcount:          2
+{ cycles: ~ 1039-1039 } hitcount:          5
+{ cycles: ~ 1040-1040 } hitcount:          4
+{ cycles: ~ 1041-1041 } hitcount:          5
+{ cycles: ~ 1042-1042 } hitcount:          2
+{ cycles: ~ 1043-1043 } hitcount:          3
+{ cycles: ~ 1044-1044 } hitcount:          1
+{ cycles: ~ 1046-1046 } hitcount:          1
+{ cycles: ~ 1047-1047 } hitcount:          1
+{ cycles: ~ 1048-1048 } hitcount:          2
+{ cycles: ~ 1049-1049 } hitcount:          1
+{ cycles: ~ 1051-1051 } hitcount:          1
+{ cycles: ~ 1053-1053 } hitcount:          1
+{ cycles: ~ 1059-1059 } hitcount:          1
+{ cycles: ~ 1062-1062 } hitcount:          1
+{ cycles: ~ 1066-1066 } hitcount:          1
+{ cycles: ~ 1070-1070 } hitcount:          1
+{ cycles: ~ 1071-1071 } hitcount:          1
+{ cycles: ~ 1072-1072 } hitcount:          1
+{ cycles: ~ 1074-1074 } hitcount:          1
+{ cycles: ~ 1075-1075 } hitcount:          3
+{ cycles: ~ 1076-1076 } hitcount:          1
+{ cycles: ~ 1077-1077 } hitcount:          1
+{ cycles: ~ 1078-1078 } hitcount:          1
+{ cycles: ~ 1079-1079 } hitcount:          3
+{ cycles: ~ 1080-1080 } hitcount:          2
+{ cycles: ~ 1081-1081 } hitcount:          2
+{ cycles: ~ 1082-1082 } hitcount:          2
+{ cycles: ~ 1083-1083 } hitcount:          1
+{ cycles: ~ 1084-1084 } hitcount:          1
+{ cycles: ~ 1088-1088 } hitcount:          2
+{ cycles: ~ 1089-1089 } hitcount:          1
+{ cycles: ~ 1091-1091 } hitcount:          1
+{ cycles: ~ 1092-1092 } hitcount:          1
+{ cycles: ~ 1093-1093 } hitcount:          1
+{ cycles: ~ 1094-1094 } hitcount:          1
+{ cycles: ~ 1095-1095 } hitcount:          2
+{ cycles: ~ 1100-1100 } hitcount:          1
+{ cycles: ~ 1192-1192 } hitcount:          1
+{ cycles: ~ 1237-1237 } hitcount:          1
+{ cycles: ~ 3914-3914 } hitcount:          1
+
+Totals:
+    Hits: 75
+    Entries: 46
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/zeromthppage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 9398 [active]
+#
+
+{ cycles: ~ 46-46 } hitcount:          1
+
+Totals:
+    Hits: 1
+    Entries: 1
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0

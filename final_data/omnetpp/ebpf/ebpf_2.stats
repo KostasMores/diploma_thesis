@@ -1,0 +1,23 @@
+# started on Wed Sep 18 13:19:33 2024
+
+
+ Performance counter stats for process id '2664':
+
+      624505012797      cycles                                                                  (58.33%)
+      523447477030      instructions                     #    0.84  insn per cycle              (58.32%)
+      624514399467      cpu_cycles                                                              (58.34%)
+              2968      minor-faults                                                          
+                 5      major-faults                                                          
+              2973      page-faults                                                           
+      274073002106      l1d_tlb                                                                 (58.32%)
+        8170780200      l2d_tlb                                                                 (58.33%)
+         108903835      dtlb_walk                                                               (58.33%)
+      274786435535      armv8_pmuv3/dTLB-loads/                                                 (58.34%)
+        7991622935      armv8_pmuv3/dTLB-load-misses/    #    2.91% of all dTLB cache accesses  (58.33%)
+      174768081921      l1i_tlb                                                                 (58.34%)
+           7702464      itlb_walk                                                               (50.01%)
+      174541744656      armv8_pmuv3/iTLB-loads/                                                 (50.01%)
+          18722079      armv8_pmuv3/iTLB-load-misses/    #    0.01% of all iTLB cache accesses  (50.00%)
+
+     235.191664984 seconds time elapsed
+

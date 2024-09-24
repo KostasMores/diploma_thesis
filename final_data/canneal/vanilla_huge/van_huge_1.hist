@@ -1,0 +1,215 @@
+/sys/kernel/debug/tracing/events/pftrace/allochugepmdpage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 1393 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 1891 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/allocmthppage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 1393 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 1891 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/fault/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 1393 [active]
+#
+
+{ cycles: ~ 8-8 } hitcount:          2
+{ cycles: ~ 9-9 } hitcount:          2
+{ cycles: ~ 12-12 } hitcount:          1
+{ cycles: ~ 21-21 } hitcount:          1
+{ cycles: ~ 37-37 } hitcount:          1
+{ cycles: ~ 121-121 } hitcount:          1
+{ cycles: ~ 3690-3690 } hitcount:          1
+{ cycles: ~ 3938-3938 } hitcount:          1
+{ cycles: ~ 4010-4010 } hitcount:          1
+{ cycles: ~ 20192-20192 } hitcount:          1
+{ cycles: ~ 30280-30280 } hitcount:          1
+
+Totals:
+    Hits: 13
+    Entries: 11
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 1891 [active]
+#
+
+{ cycles: ~ 7-7 } hitcount:          5
+{ cycles: ~ 8-8 } hitcount:         13
+{ cycles: ~ 9-9 } hitcount:          9
+{ cycles: ~ 10-10 } hitcount:          5
+{ cycles: ~ 11-11 } hitcount:         10
+{ cycles: ~ 12-12 } hitcount:          4
+{ cycles: ~ 13-13 } hitcount:          5
+{ cycles: ~ 14-14 } hitcount:          5
+{ cycles: ~ 15-15 } hitcount:          2
+{ cycles: ~ 16-16 } hitcount:          3
+{ cycles: ~ 17-17 } hitcount:          2
+{ cycles: ~ 18-18 } hitcount:          6
+{ cycles: ~ 20-20 } hitcount:          1
+{ cycles: ~ 21-21 } hitcount:          2
+{ cycles: ~ 23-23 } hitcount:          1
+{ cycles: ~ 27-27 } hitcount:          2
+{ cycles: ~ 33-33 } hitcount:          2
+{ cycles: ~ 34-34 } hitcount:          1
+{ cycles: ~ 36-36 } hitcount:          5
+{ cycles: ~ 37-37 } hitcount:          1
+{ cycles: ~ 38-38 } hitcount:          1
+{ cycles: ~ 40-40 } hitcount:          1
+{ cycles: ~ 43-43 } hitcount:          3
+{ cycles: ~ 44-44 } hitcount:          1
+{ cycles: ~ 46-46 } hitcount:          2
+{ cycles: ~ 47-47 } hitcount:          1
+{ cycles: ~ 191-191 } hitcount:          1
+{ cycles: ~ 975-975 } hitcount:          1
+{ cycles: ~ 3065-3065 } hitcount:          1
+
+Totals:
+    Hits: 96
+    Entries: 29
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/zerohugepmdpage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 1393 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 1891 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/zeromthppage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 1393 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 1891 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0

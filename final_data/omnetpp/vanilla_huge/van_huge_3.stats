@@ -1,0 +1,23 @@
+# started on Wed Sep 18 14:37:27 2024
+
+
+ Performance counter stats for process id '10399':
+
+      610315522371      cycles                                                                  (58.33%)
+      523638947294      instructions                     #    0.86  insn per cycle              (58.34%)
+      609810727174      cpu_cycles                                                              (58.32%)
+                95      minor-faults                                                          
+                 2      major-faults                                                          
+                97      page-faults                                                           
+      255543412495      l1d_tlb                                                                 (58.33%)
+         716477682      l2d_tlb                                                                 (58.33%)
+             74676      dtlb_walk                                                               (58.33%)
+      256003754477      armv8_pmuv3/dTLB-loads/                                                 (58.33%)
+         617352902      armv8_pmuv3/dTLB-load-misses/    #    0.24% of all dTLB cache accesses  (58.34%)
+      173128648129      l1i_tlb                                                                 (58.34%)
+            150045      itlb_walk                                                               (50.00%)
+      172628945245      armv8_pmuv3/iTLB-loads/                                                 (50.00%)
+          24869054      armv8_pmuv3/iTLB-load-misses/    #    0.01% of all iTLB cache accesses  (50.01%)
+
+     243.196135140 seconds time elapsed
+

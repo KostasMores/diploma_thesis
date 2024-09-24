@@ -1,0 +1,23 @@
+# started on Thu Sep 19 13:20:07 2024
+
+
+ Performance counter stats for process id '4549':
+
+     1308477506700      cycles                                                                  (58.34%)
+     2030097588589      instructions                     #    1.55  insn per cycle              (58.33%)
+     1307601527683      cpu_cycles                                                              (58.33%)
+                 0      minor-faults                                                          
+                 0      major-faults                                                          
+                 0      page-faults                                                           
+     1418873688603      l1d_tlb                                                                 (58.33%)
+        1263676231      l2d_tlb                                                                 (58.33%)
+         272586148      dtlb_walk                                                               (58.33%)
+     1420596262218      armv8_pmuv3/dTLB-loads/                                                 (58.33%)
+        1127026568      armv8_pmuv3/dTLB-load-misses/    #    0.08% of all dTLB cache accesses  (58.33%)
+      308001072867      l1i_tlb                                                                 (58.33%)
+            266471      itlb_walk                                                               (50.00%)
+      307524908435      armv8_pmuv3/iTLB-loads/                                                 (50.00%)
+            775408      armv8_pmuv3/iTLB-load-misses/    #    0.00% of all iTLB cache accesses  (50.00%)
+
+     500.388288167 seconds time elapsed
+

@@ -1,0 +1,23 @@
+# started on Wed Sep 18 13:33:14 2024
+
+
+ Performance counter stats for process id '4712':
+
+      586622301766      cycles                                                                  (58.34%)
+      522883413505      instructions                     #    0.89  insn per cycle              (58.33%)
+      586421236393      cpu_cycles                                                              (58.33%)
+              2940      minor-faults                                                          
+                 5      major-faults                                                          
+              2945      page-faults                                                           
+      273309471338      l1d_tlb                                                                 (58.33%)
+        8199880488      l2d_tlb                                                                 (58.34%)
+         116782810      dtlb_walk                                                               (58.33%)
+      273857785345      armv8_pmuv3/dTLB-loads/                                                 (58.34%)
+        8026975206      armv8_pmuv3/dTLB-load-misses/    #    2.93% of all dTLB cache accesses  (58.33%)
+      174343721876      l1i_tlb                                                                 (58.34%)
+           8428061      itlb_walk                                                               (50.00%)
+      174101190665      armv8_pmuv3/iTLB-loads/                                                 (50.00%)
+          21902931      armv8_pmuv3/iTLB-load-misses/    #    0.01% of all iTLB cache accesses  (50.01%)
+
+     227.188105349 seconds time elapsed
+

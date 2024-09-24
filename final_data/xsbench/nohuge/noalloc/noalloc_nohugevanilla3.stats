@@ -1,0 +1,23 @@
+# started on Mon Jul 29 23:41:43 2024
+
+
+ Performance counter stats for process id '8673':
+
+     2294271560265      cycles                                                                  (58.38%)
+      377259965691      instructions                     #    0.16  insn per cycle              (58.32%)
+     2297864296898      cpu_cycles                                                              (58.33%)
+                 0      minor-faults                                                          
+                 0      major-faults                                                          
+                 0      page-faults                                                           
+      377354359944      l1d_tlb                                                                 (58.29%)
+       15228224564      l2d_tlb                                                                 (58.37%)
+       13066853664      dtlb_walk                                                               (58.32%)
+      378548653972      armv8_pmuv3/dTLB-loads/                                                 (58.33%)
+       15223259167      armv8_pmuv3/dTLB-load-misses/    #    4.02% of all dTLB cache accesses  (58.30%)
+      156173513693      l1i_tlb                                                                 (58.38%)
+            612402      itlb_walk                                                               (50.00%)
+      156228373432      armv8_pmuv3/iTLB-loads/                                                 (49.97%)
+            583528      armv8_pmuv3/iTLB-load-misses/    #    0.00% of all iTLB cache accesses  (50.01%)
+
+     825.635044427 seconds time elapsed
+

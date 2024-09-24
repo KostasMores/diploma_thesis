@@ -1,0 +1,23 @@
+# started on Wed Sep 11 16:44:43 2024
+
+
+ Performance counter stats for process id '3210':
+
+      518298629448      cycles                                                                  (58.33%)
+      275910548147      instructions                     #    0.53  insn per cycle              (58.33%)
+      518262698238      cpu_cycles                                                              (58.33%)
+                96      minor-faults                                                          
+                 2      major-faults                                                          
+                98      page-faults                                                           
+      592936589709      l1d_tlb                                                                 (58.33%)
+         995332612      l2d_tlb                                                                 (58.33%)
+         161518281      dtlb_walk                                                               (58.33%)
+      594258032619      armv8_pmuv3/dTLB-loads/                                                 (58.34%)
+         950550764      armv8_pmuv3/dTLB-load-misses/    #    0.16% of all dTLB cache accesses  (58.33%)
+       81040614074      l1i_tlb                                                                 (58.34%)
+            681131      itlb_walk                                                               (50.00%)
+       80920538886      armv8_pmuv3/iTLB-loads/                                                 (50.00%)
+            819553      armv8_pmuv3/iTLB-load-misses/    #    0.00% of all iTLB cache accesses  (50.00%)
+
+     200.160500202 seconds time elapsed
+

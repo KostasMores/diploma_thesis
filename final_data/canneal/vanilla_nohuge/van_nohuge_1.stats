@@ -1,0 +1,23 @@
+# started on Wed Sep 11 15:46:59 2024
+
+
+ Performance counter stats for process id '2145':
+
+      618584766829      cycles                                                                  (58.34%)
+      276271987991      instructions                     #    0.45  insn per cycle              (58.33%)
+      618515736612      cpu_cycles                                                              (58.34%)
+                 3      minor-faults                                                          
+                 3      major-faults                                                          
+                 6      page-faults                                                           
+      677151462740      l1d_tlb                                                                 (58.33%)
+        2133586211      l2d_tlb                                                                 (58.33%)
+        1840110155      dtlb_walk                                                               (58.33%)
+      678317122680      armv8_pmuv3/dTLB-loads/                                                 (58.34%)
+        2082236782      armv8_pmuv3/dTLB-load-misses/    #    0.31% of all dTLB cache accesses  (58.33%)
+       81207539126      l1i_tlb                                                                 (58.33%)
+           1270112      itlb_walk                                                               (50.00%)
+       81128112122      armv8_pmuv3/iTLB-loads/                                                 (50.00%)
+           1374553      armv8_pmuv3/iTLB-load-misses/    #    0.00% of all iTLB cache accesses  (50.00%)
+
+     238.194776382 seconds time elapsed
+

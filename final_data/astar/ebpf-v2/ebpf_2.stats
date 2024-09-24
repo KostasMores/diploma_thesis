@@ -1,0 +1,23 @@
+# started on Mon Sep 16 10:09:40 2024
+
+
+ Performance counter stats for process id '1922':
+
+      333651562504      cycles                                                                  (58.33%)
+      347784679360      instructions                     #    1.04  insn per cycle              (58.33%)
+      333293887671      cpu_cycles                                                              (58.33%)
+             31237      minor-faults                                                          
+                 3      major-faults                                                          
+             31240      page-faults                                                           
+      211190729037      l1d_tlb                                                                 (58.33%)
+        2821287792      l2d_tlb                                                                 (58.33%)
+        1345111549      dtlb_walk                                                               (58.34%)
+      211322717771      armv8_pmuv3/dTLB-loads/                                                 (58.34%)
+        2757624756      armv8_pmuv3/dTLB-load-misses/    #    1.30% of all dTLB cache accesses  (58.34%)
+      182408486946      l1i_tlb                                                                 (58.34%)
+            360082      itlb_walk                                                               (50.00%)
+      182116135416      armv8_pmuv3/iTLB-loads/                                                 (50.00%)
+            436872      armv8_pmuv3/iTLB-load-misses/    #    0.00% of all iTLB cache accesses  (50.00%)
+
+     129.105137114 seconds time elapsed
+

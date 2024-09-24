@@ -1,0 +1,23 @@
+# started on Mon Jul 29 21:59:05 2024
+
+
+ Performance counter stats for process id '6375':
+
+     2501757510965      cycles                                                                  (58.33%)
+      864759853806      instructions                     #    0.35  insn per cycle              (58.33%)
+     2502131515534      cpu_cycles                                                              (58.34%)
+          30669174      minor-faults                                                          
+                 0      major-faults                                                          
+          30669172      page-faults                                                           
+      555910387506      l1d_tlb                                                                 (58.33%)
+       15304996146      l2d_tlb                                                                 (58.33%)
+       12383497028      dtlb_walk                                                               (58.33%)
+      557368922405      armv8_pmuv3/dTLB-loads/                                                 (58.34%)
+       15086621588      armv8_pmuv3/dTLB-load-misses/    #    2.71% of all dTLB cache accesses  (58.33%)
+      286651586775      l1i_tlb                                                                 (58.33%)
+            624358      itlb_walk                                                               (50.01%)
+      286360468521      armv8_pmuv3/iTLB-loads/                                                 (50.01%)
+            629599      armv8_pmuv3/iTLB-load-misses/    #    0.00% of all iTLB cache accesses  (50.00%)
+
+     906.709347227 seconds time elapsed
+

@@ -1,0 +1,356 @@
+/sys/kernel/debug/tracing/events/pftrace/allochugepmdpage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 1373 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/allocmthppage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 1373 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/fault/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 1373 [active]
+#
+
+{ cycles: ~ 2-2 } hitcount:         43
+{ cycles: ~ 3-3 } hitcount:        289
+{ cycles: ~ 4-4 } hitcount:        100
+{ cycles: ~ 5-5 } hitcount:         14
+{ cycles: ~ 6-6 } hitcount:          5
+{ cycles: ~ 7-7 } hitcount:          1
+{ cycles: ~ 8-8 } hitcount:          4
+{ cycles: ~ 9-9 } hitcount:          1
+{ cycles: ~ 12-12 } hitcount:          4
+{ cycles: ~ 13-13 } hitcount:         85
+{ cycles: ~ 14-14 } hitcount:        196
+{ cycles: ~ 15-15 } hitcount:        331
+{ cycles: ~ 16-16 } hitcount:        704
+{ cycles: ~ 17-17 } hitcount:       6807
+{ cycles: ~ 18-18 } hitcount:      25473
+{ cycles: ~ 19-19 } hitcount:       9119
+{ cycles: ~ 20-20 } hitcount:       1973
+{ cycles: ~ 21-21 } hitcount:       1573
+{ cycles: ~ 22-22 } hitcount:       1646
+{ cycles: ~ 23-23 } hitcount:       2026
+{ cycles: ~ 24-24 } hitcount:       2766
+{ cycles: ~ 25-25 } hitcount:       2638
+{ cycles: ~ 26-26 } hitcount:       1688
+{ cycles: ~ 27-27 } hitcount:        592
+{ cycles: ~ 28-28 } hitcount:        219
+{ cycles: ~ 29-29 } hitcount:        121
+{ cycles: ~ 30-30 } hitcount:         95
+{ cycles: ~ 31-31 } hitcount:         68
+{ cycles: ~ 32-32 } hitcount:         63
+{ cycles: ~ 33-33 } hitcount:         45
+{ cycles: ~ 34-34 } hitcount:         40
+{ cycles: ~ 35-35 } hitcount:         40
+{ cycles: ~ 36-36 } hitcount:         34
+{ cycles: ~ 37-37 } hitcount:         28
+{ cycles: ~ 38-38 } hitcount:         24
+{ cycles: ~ 39-39 } hitcount:         29
+{ cycles: ~ 40-40 } hitcount:         18
+{ cycles: ~ 41-41 } hitcount:         20
+{ cycles: ~ 42-42 } hitcount:         11
+{ cycles: ~ 43-43 } hitcount:         22
+{ cycles: ~ 44-44 } hitcount:         10
+{ cycles: ~ 45-45 } hitcount:         14
+{ cycles: ~ 46-46 } hitcount:         14
+{ cycles: ~ 47-47 } hitcount:          7
+{ cycles: ~ 48-48 } hitcount:         16
+{ cycles: ~ 49-49 } hitcount:         10
+{ cycles: ~ 50-50 } hitcount:         10
+{ cycles: ~ 51-51 } hitcount:         20
+{ cycles: ~ 52-52 } hitcount:         11
+{ cycles: ~ 53-53 } hitcount:         63
+{ cycles: ~ 54-54 } hitcount:        113
+{ cycles: ~ 55-55 } hitcount:         95
+{ cycles: ~ 56-56 } hitcount:         27
+{ cycles: ~ 57-57 } hitcount:         17
+{ cycles: ~ 58-58 } hitcount:         29
+{ cycles: ~ 59-59 } hitcount:         30
+{ cycles: ~ 60-60 } hitcount:         30
+{ cycles: ~ 61-61 } hitcount:         45
+{ cycles: ~ 62-62 } hitcount:         35
+{ cycles: ~ 63-63 } hitcount:         49
+{ cycles: ~ 64-64 } hitcount:        144
+{ cycles: ~ 65-65 } hitcount:        279
+{ cycles: ~ 66-66 } hitcount:        295
+{ cycles: ~ 67-67 } hitcount:        236
+{ cycles: ~ 68-68 } hitcount:        120
+{ cycles: ~ 69-69 } hitcount:         95
+{ cycles: ~ 70-70 } hitcount:        107
+{ cycles: ~ 71-71 } hitcount:         96
+{ cycles: ~ 72-72 } hitcount:         84
+{ cycles: ~ 73-73 } hitcount:         73
+{ cycles: ~ 74-74 } hitcount:         60
+{ cycles: ~ 75-75 } hitcount:         51
+{ cycles: ~ 76-76 } hitcount:         48
+{ cycles: ~ 77-77 } hitcount:         27
+{ cycles: ~ 78-78 } hitcount:         33
+{ cycles: ~ 79-79 } hitcount:         36
+{ cycles: ~ 80-80 } hitcount:         23
+{ cycles: ~ 81-81 } hitcount:         24
+{ cycles: ~ 82-82 } hitcount:         28
+{ cycles: ~ 83-83 } hitcount:         17
+{ cycles: ~ 84-84 } hitcount:         25
+{ cycles: ~ 85-85 } hitcount:         20
+{ cycles: ~ 86-86 } hitcount:         18
+{ cycles: ~ 87-87 } hitcount:         16
+{ cycles: ~ 88-88 } hitcount:         17
+{ cycles: ~ 89-89 } hitcount:         11
+{ cycles: ~ 90-90 } hitcount:          7
+{ cycles: ~ 91-91 } hitcount:          7
+{ cycles: ~ 92-92 } hitcount:         11
+{ cycles: ~ 93-93 } hitcount:          7
+{ cycles: ~ 94-94 } hitcount:          5
+{ cycles: ~ 95-95 } hitcount:          5
+{ cycles: ~ 96-96 } hitcount:          7
+{ cycles: ~ 97-97 } hitcount:          1
+{ cycles: ~ 98-98 } hitcount:          5
+{ cycles: ~ 99-99 } hitcount:          3
+{ cycles: ~ 100-100 } hitcount:          3
+{ cycles: ~ 101-101 } hitcount:          5
+{ cycles: ~ 102-102 } hitcount:          5
+{ cycles: ~ 103-103 } hitcount:          5
+{ cycles: ~ 104-104 } hitcount:          3
+{ cycles: ~ 105-105 } hitcount:          1
+{ cycles: ~ 106-106 } hitcount:          1
+{ cycles: ~ 107-107 } hitcount:          3
+{ cycles: ~ 108-108 } hitcount:          2
+{ cycles: ~ 110-110 } hitcount:          2
+{ cycles: ~ 112-112 } hitcount:          3
+{ cycles: ~ 113-113 } hitcount:          3
+{ cycles: ~ 115-115 } hitcount:          1
+{ cycles: ~ 116-116 } hitcount:          1
+{ cycles: ~ 117-117 } hitcount:          1
+{ cycles: ~ 118-118 } hitcount:          2
+{ cycles: ~ 119-119 } hitcount:          1
+{ cycles: ~ 121-121 } hitcount:          3
+{ cycles: ~ 122-122 } hitcount:          1
+{ cycles: ~ 123-123 } hitcount:          1
+{ cycles: ~ 126-126 } hitcount:          1
+{ cycles: ~ 127-127 } hitcount:          1
+{ cycles: ~ 131-131 } hitcount:          1
+{ cycles: ~ 133-133 } hitcount:          2
+{ cycles: ~ 143-143 } hitcount:          1
+{ cycles: ~ 144-144 } hitcount:          3
+{ cycles: ~ 146-146 } hitcount:          1
+{ cycles: ~ 149-149 } hitcount:          1
+{ cycles: ~ 151-151 } hitcount:          2
+{ cycles: ~ 153-153 } hitcount:          1
+{ cycles: ~ 154-154 } hitcount:          2
+{ cycles: ~ 155-155 } hitcount:          1
+{ cycles: ~ 158-158 } hitcount:          1
+{ cycles: ~ 160-160 } hitcount:          1
+{ cycles: ~ 161-161 } hitcount:          1
+{ cycles: ~ 163-163 } hitcount:          1
+{ cycles: ~ 164-164 } hitcount:          1
+{ cycles: ~ 166-166 } hitcount:          1
+{ cycles: ~ 167-167 } hitcount:          3
+{ cycles: ~ 169-169 } hitcount:          2
+{ cycles: ~ 171-171 } hitcount:          1
+{ cycles: ~ 172-172 } hitcount:          2
+{ cycles: ~ 173-173 } hitcount:          2
+{ cycles: ~ 174-174 } hitcount:          1
+{ cycles: ~ 175-175 } hitcount:          1
+{ cycles: ~ 176-176 } hitcount:          1
+{ cycles: ~ 177-177 } hitcount:          1
+{ cycles: ~ 179-179 } hitcount:          1
+{ cycles: ~ 180-180 } hitcount:          1
+{ cycles: ~ 182-182 } hitcount:          1
+{ cycles: ~ 183-183 } hitcount:          1
+{ cycles: ~ 186-186 } hitcount:          1
+{ cycles: ~ 187-187 } hitcount:          1
+{ cycles: ~ 188-188 } hitcount:          2
+{ cycles: ~ 189-189 } hitcount:          1
+{ cycles: ~ 191-191 } hitcount:          1
+{ cycles: ~ 192-192 } hitcount:          1
+{ cycles: ~ 200-200 } hitcount:          1
+{ cycles: ~ 203-203 } hitcount:          2
+{ cycles: ~ 214-214 } hitcount:          1
+{ cycles: ~ 217-217 } hitcount:          2
+{ cycles: ~ 224-224 } hitcount:          1
+{ cycles: ~ 227-227 } hitcount:          1
+{ cycles: ~ 228-228 } hitcount:          2
+{ cycles: ~ 232-232 } hitcount:          1
+{ cycles: ~ 239-239 } hitcount:          1
+{ cycles: ~ 259-259 } hitcount:          1
+{ cycles: ~ 266-266 } hitcount:          1
+{ cycles: ~ 268-268 } hitcount:          1
+{ cycles: ~ 277-277 } hitcount:          1
+{ cycles: ~ 278-278 } hitcount:          1
+{ cycles: ~ 280-280 } hitcount:          1
+{ cycles: ~ 293-293 } hitcount:          1
+{ cycles: ~ 306-306 } hitcount:          1
+{ cycles: ~ 307-307 } hitcount:          1
+{ cycles: ~ 322-322 } hitcount:          1
+{ cycles: ~ 351-351 } hitcount:          1
+{ cycles: ~ 352-352 } hitcount:          1
+{ cycles: ~ 373-373 } hitcount:          1
+{ cycles: ~ 376-376 } hitcount:          1
+{ cycles: ~ 398-398 } hitcount:          1
+{ cycles: ~ 418-418 } hitcount:          1
+{ cycles: ~ 472-472 } hitcount:          1
+{ cycles: ~ 492-492 } hitcount:          1
+{ cycles: ~ 503-503 } hitcount:          1
+{ cycles: ~ 576-576 } hitcount:          1
+{ cycles: ~ 591-591 } hitcount:          1
+{ cycles: ~ 659-659 } hitcount:          1
+{ cycles: ~ 718-718 } hitcount:          1
+{ cycles: ~ 784-784 } hitcount:          1
+{ cycles: ~ 887-887 } hitcount:          1
+{ cycles: ~ 907-907 } hitcount:          1
+{ cycles: ~ 908-908 } hitcount:          1
+{ cycles: ~ 922-922 } hitcount:          1
+{ cycles: ~ 946-946 } hitcount:          1
+{ cycles: ~ 960-960 } hitcount:          1
+{ cycles: ~ 968-968 } hitcount:          2
+{ cycles: ~ 970-970 } hitcount:          1
+{ cycles: ~ 983-983 } hitcount:          1
+{ cycles: ~ 993-993 } hitcount:          1
+{ cycles: ~ 1007-1007 } hitcount:          1
+{ cycles: ~ 1014-1014 } hitcount:          1
+{ cycles: ~ 1041-1041 } hitcount:          1
+{ cycles: ~ 1084-1084 } hitcount:          1
+{ cycles: ~ 1088-1088 } hitcount:          1
+{ cycles: ~ 1089-1089 } hitcount:          1
+{ cycles: ~ 1154-1154 } hitcount:          1
+{ cycles: ~ 1163-1163 } hitcount:          1
+{ cycles: ~ 1179-1179 } hitcount:          1
+{ cycles: ~ 1198-1198 } hitcount:          1
+{ cycles: ~ 1214-1214 } hitcount:          1
+{ cycles: ~ 1248-1248 } hitcount:          1
+{ cycles: ~ 1268-1268 } hitcount:          1
+{ cycles: ~ 1302-1302 } hitcount:          1
+{ cycles: ~ 1632-1632 } hitcount:          1
+{ cycles: ~ 1707-1707 } hitcount:          1
+{ cycles: ~ 2178-2178 } hitcount:          1
+{ cycles: ~ 2325-2325 } hitcount:          1
+{ cycles: ~ 2365-2365 } hitcount:          1
+{ cycles: ~ 2368-2368 } hitcount:          1
+{ cycles: ~ 2385-2385 } hitcount:          1
+{ cycles: ~ 2436-2436 } hitcount:          1
+{ cycles: ~ 2445-2445 } hitcount:          1
+{ cycles: ~ 2448-2448 } hitcount:          1
+{ cycles: ~ 2568-2568 } hitcount:          2
+{ cycles: ~ 2615-2615 } hitcount:          1
+{ cycles: ~ 2642-2642 } hitcount:          1
+{ cycles: ~ 2643-2643 } hitcount:          1
+{ cycles: ~ 2679-2679 } hitcount:          1
+{ cycles: ~ 2738-2738 } hitcount:          1
+{ cycles: ~ 2741-2741 } hitcount:          1
+{ cycles: ~ 2757-2757 } hitcount:          1
+{ cycles: ~ 2840-2840 } hitcount:          1
+{ cycles: ~ 2910-2910 } hitcount:          1
+{ cycles: ~ 2957-2957 } hitcount:          1
+{ cycles: ~ 2958-2958 } hitcount:          1
+{ cycles: ~ 2994-2994 } hitcount:          1
+{ cycles: ~ 3584-3584 } hitcount:          1
+{ cycles: ~ 3794-3794 } hitcount:          2
+{ cycles: ~ 3961-3961 } hitcount:          1
+{ cycles: ~ 4099-4099 } hitcount:          1
+{ cycles: ~ 11960-11960 } hitcount:          1
+{ cycles: ~ 18651-18651 } hitcount:          1
+{ cycles: ~ 19862-19862 } hitcount:          1
+{ cycles: ~ 27448-27448 } hitcount:          1
+
+Totals:
+    Hits: 61830
+    Entries: 241
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/zerohugepmdpage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 1373 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+/sys/kernel/debug/tracing/events/pftrace/zeromthppage/hist
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 if common_pid == 1373 [active]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
+
+
+# event histogram
+#
+# trigger info: hist:keys=cycles.buckets=1:vals=hitcount:sort=cycles.buckets=1:size=8192 [paused]
+#
+
+
+Totals:
+    Hits: 0
+    Entries: 0
+    Dropped: 0
