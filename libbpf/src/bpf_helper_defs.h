@@ -4768,3 +4768,5 @@ static long (* const bpf_cgrp_storage_delete)(void *map, struct cgroup *cgroup) 
 static void (*bpf_update_action)(struct mm_action *action, int bpf_action) = (void *) 212;
 
 static void (*bpf_update_orders)(struct mm_action *action, unsigned long bpf_orders) = (void *) 213;
+
+static int (*bpf_free_huge_page_status)(int test_order) = (void *) 214;

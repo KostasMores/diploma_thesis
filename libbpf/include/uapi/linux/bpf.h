@@ -6000,6 +6000,7 @@ union bpf_attr {
 	FN(cgrp_storage_delete, 211, ##ctx)		\
 	FN(update_action, 212, ##ctx)     \
 	FN(update_orders, 213, ##ctx)     \
+	FN(free_huge_page_status, 214, ##ctx)		\
 	/* */
 
 /* backwards-compatibility macros for users of __BPF_FUNC_MAPPER that don't

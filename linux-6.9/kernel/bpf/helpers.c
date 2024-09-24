@@ -53,6 +53,39 @@ const struct bpf_func_proto bpf_update_orders_proto = {
 	.arg2_type	= ARG_ANYTHING,
 };
 
+BPF_CALL_1(bpf_free_huge_page_status, int test_order) {
+	int zone_idx;
+	struct zone *zone;
+	struct page *page;
+	struct free_area *area;
+	bool is_free = false;
+	int order;
+	unsigned long flags;
+
+	pg_data_t *pgdat = NODE_DATA(numa_node_id());
+	for (zone_idx = ZONE_NORMAL; zone_idx < MAX_NR_ZONES; zone_idx++) {
+		zone = &pgdat->node_zones[zone_idx];
+
+		for (order = test_order; order < MAX_ORDER; ++order) {
+			area = &(zone->free_area[order])
+			is_free = area->nr_free > 0;
+
+			if (is_free) {
+				return 1;
+			}
+		}
+	}
+
+	return 0;
+}
+
+const struct bpf_func_proto bpf_free_huge_page_status_proto = {
+	.func		= bpf_free_huge_page_status,
+	.gpl_only	= false,
+	.ret_type	= RET_INTEGER,
+	.arg1_type	= ARG_ANYTHING,
+};
+
 /* If kernel subsystem is allowing eBPF programs to call this function,
  * inside its own verifier_ops->get_func_proto() callback it should return
  * bpf_map_lookup_elem_proto, so that verifier can properly check the arguments
