@@ -1,0 +1,281 @@
+Sampled footprint: 338MB, Kernel: 0B, Userspace: 338MB
+Total count: 348687, Kernel: 0, Userspace: 348687
+Unique addreses: 86537, Kernel: 0, Userspace: 86537
+
+Total 4KB pages 86537, first: Pte address: 0xfffff73d7000, count: 21, entries: 1, occupancy: 100%, 4K pages: 1
+4KB pages with >=50% occupancy: 86537
+Total 64KB pages 5423, first: ContPte address: 0xfffff7350000, count: 336, entries: 16, occupancy: 100%, 4K pages: 16
+64KB pages with >=50% occupancy: 5409
+Total 2MB pages 173, first: Pmd address: 0xe000000, count: 6524, entries: 32, occupancy: 100%, 4K pages: 512
+2MB pages with >=50% occupancy: 170
+Total 32MB pages 13, first: ContPmd address: 0xe000000, count: 53518, entries: 16, occupancy: 100%, 4K pages: 8080
+32MB pages with >=50% occupancy: 11
+
+Coverage with the 1280 most frequent 4KB entries is 5.5270%
+Top 10 entries:
+Pte address: 0xfffff73d7000, count: 21, entries: 1, occupancy: 100%, 4K pages: 1
+Pte address: 0xfffff73a0000, count: 21, entries: 1, occupancy: 100%, 4K pages: 1
+Pte address: 0xfffff7351000, count: 21, entries: 1, occupancy: 100%, 4K pages: 1
+Pte address: 0xfffff73ab000, count: 21, entries: 1, occupancy: 100%, 4K pages: 1
+Pte address: 0xfffff73f8000, count: 21, entries: 1, occupancy: 100%, 4K pages: 1
+Pte address: 0xfffff73d8000, count: 21, entries: 1, occupancy: 100%, 4K pages: 1
+Pte address: 0xfffff73e9000, count: 21, entries: 1, occupancy: 100%, 4K pages: 1
+Pte address: 0x45d000, count: 21, entries: 1, occupancy: 100%, 4K pages: 1
+Pte address: 0xfffff7fdc000, count: 21, entries: 1, occupancy: 100%, 4K pages: 1
+Pte address: 0xfffff73f9000, count: 21, entries: 1, occupancy: 100%, 4K pages: 1
+Coverage with the 1280 most frequent 64KB entries is 52.8001%
+Top 10 entries:
+ContPte address: 0xfffff7350000, count: 336, entries: 16, occupancy: 100%, 4K pages: 16
+ContPte address: 0xfffff7340000, count: 336, entries: 16, occupancy: 100%, 4K pages: 16
+ContPte address: 0xfffff7fd0000, count: 336, entries: 16, occupancy: 100%, 4K pages: 16
+ContPte address: 0xfffff7fc0000, count: 285, entries: 14, occupancy: 87%, 4K pages: 14
+ContPte address: 0xfffff73b0000, count: 282, entries: 16, occupancy: 100%, 4K pages: 16
+ContPte address: 0xfffff7370000, count: 259, entries: 16, occupancy: 100%, 4K pages: 16
+ContPte address: 0xfffff73c0000, count: 241, entries: 16, occupancy: 100%, 4K pages: 16
+ContPte address: 0xfffff73a0000, count: 240, entries: 16, occupancy: 100%, 4K pages: 16
+ContPte address: 0xfffff7360000, count: 227, entries: 16, occupancy: 100%, 4K pages: 16
+ContPte address: 0xe120000, count: 224, entries: 16, occupancy: 100%, 4K pages: 16
+Top 10 entries (excluding single-subentry):
+ContPte address: 0xfffff7350000, count: 336, entries: 16, occupancy: 100%, 4K pages: 16
+ContPte address: 0xfffff7340000, count: 336, entries: 16, occupancy: 100%, 4K pages: 16
+ContPte address: 0xfffff7fd0000, count: 336, entries: 16, occupancy: 100%, 4K pages: 16
+ContPte address: 0xfffff7fc0000, count: 285, entries: 14, occupancy: 87%, 4K pages: 14
+ContPte address: 0xfffff73b0000, count: 282, entries: 16, occupancy: 100%, 4K pages: 16
+ContPte address: 0xfffff7370000, count: 259, entries: 16, occupancy: 100%, 4K pages: 16
+ContPte address: 0xfffff73c0000, count: 241, entries: 16, occupancy: 100%, 4K pages: 16
+ContPte address: 0xfffff73a0000, count: 240, entries: 16, occupancy: 100%, 4K pages: 16
+ContPte address: 0xfffff7360000, count: 227, entries: 16, occupancy: 100%, 4K pages: 16
+ContPte address: 0xe120000, count: 224, entries: 16, occupancy: 100%, 4K pages: 16
+Coverage with the 173 most frequent 2MB entries is 100.0000%
+Top 10 entries:
+Pmd address: 0xe000000, count: 6524, entries: 32, occupancy: 100%, 4K pages: 512
+Pmd address: 0xde00000, count: 6248, entries: 32, occupancy: 100%, 4K pages: 512
+Pmd address: 0xe400000, count: 6144, entries: 32, occupancy: 100%, 4K pages: 512
+Pmd address: 0xe200000, count: 6144, entries: 32, occupancy: 100%, 4K pages: 512
+Pmd address: 0xa000000, count: 5564, entries: 32, occupancy: 100%, 4K pages: 512
+Pmd address: 0xa200000, count: 5321, entries: 32, occupancy: 100%, 4K pages: 512
+Pmd address: 0x7600000, count: 5259, entries: 32, occupancy: 100%, 4K pages: 512
+Pmd address: 0xb600000, count: 4761, entries: 32, occupancy: 100%, 4K pages: 512
+Pmd address: 0xe600000, count: 4707, entries: 32, occupancy: 100%, 4K pages: 512
+Pmd address: 0xa800000, count: 4701, entries: 32, occupancy: 100%, 4K pages: 512
+Top 10 entries (excluding single-subentry):
+Pmd address: 0xe000000, count: 6524, entries: 32, occupancy: 100%, 4K pages: 512
+Pmd address: 0xde00000, count: 6248, entries: 32, occupancy: 100%, 4K pages: 512
+Pmd address: 0xe400000, count: 6144, entries: 32, occupancy: 100%, 4K pages: 512
+Pmd address: 0xe200000, count: 6144, entries: 32, occupancy: 100%, 4K pages: 512
+Pmd address: 0xa000000, count: 5564, entries: 32, occupancy: 100%, 4K pages: 512
+Pmd address: 0xa200000, count: 5321, entries: 32, occupancy: 100%, 4K pages: 512
+Pmd address: 0x7600000, count: 5259, entries: 32, occupancy: 100%, 4K pages: 512
+Pmd address: 0xb600000, count: 4761, entries: 32, occupancy: 100%, 4K pages: 512
+Pmd address: 0xe600000, count: 4707, entries: 32, occupancy: 100%, 4K pages: 512
+Pmd address: 0xa800000, count: 4701, entries: 32, occupancy: 100%, 4K pages: 512
+Coverage with the 13 most frequent 32MB entries is 100.0000%
+Top 10 entries:
+ContPmd address: 0xe000000, count: 53518, entries: 16, occupancy: 100%, 4K pages: 8080
+ContPmd address: 0xa000000, count: 48649, entries: 16, occupancy: 100%, 4K pages: 8192
+ContPmd address: 0x0, count: 44725, entries: 12, occupancy: 75%, 4K pages: 5939
+ContPmd address: 0x6000000, count: 35351, entries: 16, occupancy: 100%, 4K pages: 8192
+ContPmd address: 0x10000000, count: 32960, entries: 16, occupancy: 100%, 4K pages: 8192
+ContPmd address: 0x12000000, count: 29282, entries: 16, occupancy: 100%, 4K pages: 8192
+ContPmd address: 0x8000000, count: 25882, entries: 16, occupancy: 100%, 4K pages: 8192
+ContPmd address: 0xc000000, count: 22416, entries: 16, occupancy: 100%, 4K pages: 8192
+ContPmd address: 0x2000000, count: 20664, entries: 16, occupancy: 100%, 4K pages: 8192
+ContPmd address: 0x4000000, count: 20184, entries: 16, occupancy: 100%, 4K pages: 8192
+Top 10 entries (excluding single-subentry):
+ContPmd address: 0xe000000, count: 53518, entries: 16, occupancy: 100%, 4K pages: 8080
+ContPmd address: 0xa000000, count: 48649, entries: 16, occupancy: 100%, 4K pages: 8192
+ContPmd address: 0x0, count: 44725, entries: 12, occupancy: 75%, 4K pages: 5939
+ContPmd address: 0x6000000, count: 35351, entries: 16, occupancy: 100%, 4K pages: 8192
+ContPmd address: 0x10000000, count: 32960, entries: 16, occupancy: 100%, 4K pages: 8192
+ContPmd address: 0x12000000, count: 29282, entries: 16, occupancy: 100%, 4K pages: 8192
+ContPmd address: 0x8000000, count: 25882, entries: 16, occupancy: 100%, 4K pages: 8192
+ContPmd address: 0xc000000, count: 22416, entries: 16, occupancy: 100%, 4K pages: 8192
+ContPmd address: 0x2000000, count: 20664, entries: 16, occupancy: 100%, 4K pages: 8192
+ContPmd address: 0x4000000, count: 20184, entries: 16, occupancy: 100%, 4K pages: 8192
+Running Leshy for target: 100.0000, total misses: 348687, target misses: 348687, request misses: 348653, initial: entries 173, tlbsize: 1280
+State { distribution: [0, 0, 0, 0], level: 2, orig_level: 2, nr_entries: 173, step: 1, target: 348653, count: 0, addresses: {}, entries: [], cutoff: 0 }
+State { distribution: [0, 0, 0, 0], level: 2, orig_level: 2, nr_entries: 172, step: 1, target: 348653, count: 0, addresses: {}, entries: [], cutoff: 0 }
+0 4KB pages
+1 64KB pages
+172 2MB pages
+0 32MB pages
+State { distribution: [0, 0, 0, 0], level: 2, orig_level: 2, nr_entries: 171, step: 1, target: 348653, count: 0, addresses: {}, entries: [], cutoff: 0 }
+0 4KB pages
+1 64KB pages
+172 2MB pages
+0 32MB pages
+Pmd address: 0xe000000, count: 6524, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xde00000, count: 6248, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xe400000, count: 6144, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xe200000, count: 6144, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xa000000, count: 5564, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xa200000, count: 5321, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x7600000, count: 5259, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xb600000, count: 4761, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xe600000, count: 4707, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xa800000, count: 4701, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x1400000, count: 4609, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x1a00000, count: 4608, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xe800000, count: 4608, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xec00000, count: 4608, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x1800000, count: 4608, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xea00000, count: 4608, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xe00000, count: 4608, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x1600000, count: 4608, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x1200000, count: 4608, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x1000000, count: 4608, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xb800000, count: 4535, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xa600000, count: 4268, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xa400000, count: 4230, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xc00000, count: 4227, entries: 31, occupancy: 96%, 4K pages: 467 0
+Pmd address: 0x7400000, count: 3983, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xfe00000, count: 3475, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x1c00000, count: 3318, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x10200000, count: 3288, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x10000000, count: 3194, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x5200000, count: 3185, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xfa00000, count: 3146, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x1e00000, count: 3072, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x2200000, count: 3072, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x2000000, count: 3072, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x5400000, count: 2983, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x11400000, count: 2920, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xfffff7200000, count: 2793, entries: 14, occupancy: 43%, 4K pages: 209 0
+Pmd address: 0x5000000, count: 2791, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x13e00000, count: 2757, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x6a00000, count: 2727, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x7800000, count: 2612, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x11000000, count: 2527, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xb000000, count: 2416, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xb200000, count: 2414, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xaa00000, count: 2394, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x10400000, count: 2378, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x13c00000, count: 2333, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x10a00000, count: 2319, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x7a00000, count: 2262, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x6800000, count: 2255, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xb400000, count: 2234, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x8800000, count: 2212, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x10800000, count: 2203, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x10c00000, count: 2152, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x10600000, count: 2089, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x7c00000, count: 2064, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xfc00000, count: 2032, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x11200000, count: 2019, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x7e00000, count: 1968, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x9e00000, count: 1952, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xfffff7400000, count: 1927, entries: 19, occupancy: 59%, 4K pages: 258 0
+Pmd address: 0x8600000, count: 1921, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x6c00000, count: 1842, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x13200000, count: 1831, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x13600000, count: 1829, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x5600000, count: 1828, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x10e00000, count: 1824, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x13000000, count: 1802, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x12800000, count: 1796, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x13a00000, count: 1795, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x13400000, count: 1793, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x12e00000, count: 1793, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x12200000, count: 1778, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x7000000, count: 1774, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x12a00000, count: 1773, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x13800000, count: 1772, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x9200000, count: 1772, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xca00000, count: 1757, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xac00000, count: 1746, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x12c00000, count: 1744, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x11600000, count: 1741, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x8200000, count: 1727, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xf800000, count: 1716, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x6600000, count: 1714, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x6400000, count: 1695, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x8e00000, count: 1690, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x6e00000, count: 1685, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x9400000, count: 1678, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x12600000, count: 1668, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x8a00000, count: 1665, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xc800000, count: 1662, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x8c00000, count: 1647, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x8400000, count: 1637, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xae00000, count: 1602, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x9c00000, count: 1598, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x8000000, count: 1536, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xf200000, count: 1505, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x9800000, count: 1504, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x12400000, count: 1472, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xf600000, count: 1439, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x9600000, count: 1378, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x12000000, count: 1346, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x5e00000, count: 1310, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x11800000, count: 1263, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xd400000, count: 1262, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xc600000, count: 1247, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x6000000, count: 1228, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x11a00000, count: 1225, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x2400000, count: 1208, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x5800000, count: 1195, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x9000000, count: 1195, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x6200000, count: 1191, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xc200000, count: 1187, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xfffff7e00000, count: 1182, entries: 32, occupancy: 100%, 4K pages: 476 0
+Pmd address: 0xc400000, count: 1177, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xcc00000, count: 1124, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x600000, count: 1112, entries: 27, occupancy: 84%, 4K pages: 427 0
+Pmd address: 0x5c00000, count: 1102, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x7200000, count: 1092, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xf400000, count: 1090, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xee00000, count: 1060, entries: 26, occupancy: 81%, 4K pages: 400 0
+Pmd address: 0x3000000, count: 1024, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x14400000, count: 1024, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x3600000, count: 1024, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x4000000, count: 1024, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x14000000, count: 1024, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x3c00000, count: 1024, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x2800000, count: 1024, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x3200000, count: 1024, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x2c00000, count: 1024, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x3800000, count: 1024, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x3e00000, count: 1024, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x3400000, count: 1024, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x2a00000, count: 1024, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x2600000, count: 1024, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x3a00000, count: 1024, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x2e00000, count: 1024, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x14200000, count: 1024, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xfffff7a00000, count: 1014, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xd800000, count: 1002, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xbc00000, count: 980, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x11e00000, count: 968, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xdc00000, count: 891, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xd000000, count: 888, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x5a00000, count: 862, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xce00000, count: 857, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xd600000, count: 852, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x11c00000, count: 850, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x4200000, count: 824, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xd200000, count: 782, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xfffff7800000, count: 777, entries: 32, occupancy: 100%, 4K pages: 505 0
+Pmd address: 0x9a00000, count: 770, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xbe00000, count: 750, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xda00000, count: 745, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xfffff7600000, count: 745, entries: 11, occupancy: 34%, 4K pages: 157 0
+Pmd address: 0x400000, count: 739, entries: 30, occupancy: 93%, 4K pages: 437 0
+Pmd address: 0xc000000, count: 735, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xba00000, count: 733, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xf000000, count: 712, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x14600000, count: 674, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x4400000, count: 520, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x4600000, count: 512, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x4c00000, count: 512, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x14800000, count: 512, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x14c00000, count: 512, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x4800000, count: 512, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x4e00000, count: 512, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x4a00000, count: 512, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x14e00000, count: 512, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x14a00000, count: 512, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0xfffff7c00000, count: 509, entries: 32, occupancy: 100%, 4K pages: 512 0
+Pmd address: 0x15000000, count: 253, entries: 16, occupancy: 50%, 4K pages: 253 0
+ContPte address: 0xffffffff0000, count: 62, entries: 4, occupancy: 25%, 4K pages: 4 0
+count: 348687, target: 348653, total: 173
+
